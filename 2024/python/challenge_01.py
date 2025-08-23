@@ -8,7 +8,7 @@ def prepare_gifts(gifts):
 class TestPrepareGifts(unittest.TestCase):
   def test_1(self):
     gifts = [3, 1, 2, 3, 4, 2, 5]
-    expected =  [1, 2, 3, 4, 5]
+    expected = [1, 2, 3, 4, 5]
     self.assertEqual(prepare_gifts(gifts), expected)
   
   def test_2(self):

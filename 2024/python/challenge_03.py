@@ -1,7 +1,7 @@
 import unittest
 
 # Challenge
-def organizeInventory(inventory: list):
+def organize_inventory(inventory: list):
   new_inventory = {}
   for gift in inventory:
     cat = gift["category"]
@@ -33,7 +33,7 @@ class TestOrganizeInventory(unittest.TestCase):
         "racket": 4
       }
     }
-    self.assertEqual(organizeInventory(inventory), expected)
+    self.assertEqual(organize_inventory(inventory), expected)
   
   def test_2(self):
     inventory = [
@@ -49,7 +49,7 @@ class TestOrganizeInventory(unittest.TestCase):
         "paint": 3
       }
     }
-    self.assertEqual(organizeInventory(inventory), expected)
+    self.assertEqual(organize_inventory(inventory), expected)
 
 if __name__ == "__main__":
   unittest.main()

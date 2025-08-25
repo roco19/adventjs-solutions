@@ -10,7 +10,7 @@ adventjs-solutions/
 ├── 2024/
 │   ├── javascript/
 │   ├── typescript/
-│   └── python/
+│   └── python/     # At this moment there are only Python solutions.
 │
 └── README.md
 ```

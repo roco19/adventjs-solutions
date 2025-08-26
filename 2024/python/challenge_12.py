@@ -7,6 +7,7 @@ VALUES_MAP = {
 }
 
 
+# Challenge
 def calculate_price(ornaments: str) -> int:
     try:
         total = 0

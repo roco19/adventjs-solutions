@@ -1,4 +1,3 @@
-from time import sleep
 from typing import List
 
 # fmt: off
@@ -30,7 +29,7 @@ def compile(instructions: List[str]):
 
     index = 0
     while index < len(instructions):
-        instruction_parts = instructions[index].split()
+        instruction_parts = instructions[index].split(" ")
         instruction = instruction_parts[0]
 
         if instruction == "MOV":

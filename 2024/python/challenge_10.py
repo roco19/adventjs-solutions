@@ -18,6 +18,7 @@ instructions_2 = [
 # fmt: on
 
 
+# Challenge
 def compile(instructions: List[str]):
     registers = {}
 
@@ -54,4 +55,4 @@ def compile(instructions: List[str]):
 
 
 if __name__ == "__main__":
-    print(compile(instructions_2))
+    print(compile(instructions_1))
